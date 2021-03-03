@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/homejam/static/css/main.bddd54f2.chunk.css",
+    "main.js": "/homejam/static/js/main.95b5e2a9.chunk.js",
+    "main.js.map": "/homejam/static/js/main.95b5e2a9.chunk.js.map",
+    "runtime-main.js": "/homejam/static/js/runtime-main.1c8ad2f5.js",
+    "runtime-main.js.map": "/homejam/static/js/runtime-main.1c8ad2f5.js.map",
+    "static/css/2.fde8dff8.chunk.css": "/homejam/static/css/2.fde8dff8.chunk.css",
+    "static/js/2.98f1172f.chunk.js": "/homejam/static/js/2.98f1172f.chunk.js",
+    "static/js/2.98f1172f.chunk.js.map": "/homejam/static/js/2.98f1172f.chunk.js.map",
+    "static/js/3.4fb02475.chunk.js": "/homejam/static/js/3.4fb02475.chunk.js",
+    "static/js/3.4fb02475.chunk.js.map": "/homejam/static/js/3.4fb02475.chunk.js.map",
+    "index.html": "/homejam/index.html",
+    "static/css/2.fde8dff8.chunk.css.map": "/homejam/static/css/2.fde8dff8.chunk.css.map",
+    "static/css/main.bddd54f2.chunk.css.map": "/homejam/static/css/main.bddd54f2.chunk.css.map",
+    "static/js/2.98f1172f.chunk.js.LICENSE.txt": "/homejam/static/js/2.98f1172f.chunk.js.LICENSE.txt",
+    "static/media/Background.a3b5593d.jpg": "/homejam/static/media/Background.a3b5593d.jpg",
+    "static/media/Border.33221d64.png": "/homejam/static/media/Border.33221d64.png",
+    "static/media/Border2.2e4962a5.png": "/homejam/static/media/Border2.2e4962a5.png",
+    "static/media/Element2.61535683.png": "/homejam/static/media/Element2.61535683.png",
+    "static/media/Im1.7c87983f.png": "/homejam/static/media/Im1.7c87983f.png",
+    "static/media/Im2.0467a244.png": "/homejam/static/media/Im2.0467a244.png",
+    "static/media/Im3.197f8bc7.png": "/homejam/static/media/Im3.197f8bc7.png",
+    "static/media/Im4.d5288435.png": "/homejam/static/media/Im4.d5288435.png",
+    "static/media/Img1.8b26be5b.jpg": "/homejam/static/media/Img1.8b26be5b.jpg",
+    "static/media/Img2.011b5259.jpg": "/homejam/static/media/Img2.011b5259.jpg",
+    "static/media/Img3.e2456b83.jpg": "/homejam/static/media/Img3.e2456b83.jpg",
+    "static/media/MobileBackground.20fc224d.jpg": "/homejam/static/media/MobileBackground.20fc224d.jpg",
+    "static/media/logo.6ce24c58.svg": "/homejam/static/media/logo.6ce24c58.svg",
+    "static/media/styles.css": "/homejam/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c8ad2f5.js",
+    "static/css/2.fde8dff8.chunk.css",
+    "static/js/2.98f1172f.chunk.js",
+    "static/css/main.bddd54f2.chunk.css",
+    "static/js/main.95b5e2a9.chunk.js"
+  ]
+}
