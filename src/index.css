@@ -1,13 +1,82 @@
 body {
+  background: #090b1a;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  text-decoration: none;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+}
+
+.navbar {
+  margin-bottom: 150px;
+}
+
+.head-font {
+  font-family: "Libre Baskerville";
+}
+
+.content-font {
+  font-family: "Nunito";
+}
+
+.brand {
+  width: 80px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill {
+  width: 50%;
+  height: 100%;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  height: 420px;
+}
+
+.carousel-review {
+  height: 320px;
+}
+
+.profile-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icon {
+  width: 30px;
+}
+
+.icon-small {
+  margin-right: 5px;
+  width: 15px;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
