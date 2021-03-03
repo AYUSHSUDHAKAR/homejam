@@ -17,6 +17,7 @@ import { shows, reviews } from "../data/Data";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
@@ -37,7 +38,6 @@ const responsive = {
 };
 
 const background = {
-  // width: "auto",
   height: "750px",
   backgroundImage: `url("${Background}")`,
   backgroundRepeat: "no-repeat",
@@ -45,7 +45,6 @@ const background = {
 };
 
 const mobileBackground = {
-  // width: "auto",
   height: "750px",
   backgroundImage: `url("${MobileBackground}")`,
   backgroundRepeat: "no-repeat",
@@ -264,11 +263,9 @@ const Home = () => {
                           margin: "6px 0px -6px -12px",
                           width: "14rem",
                           backgroundColor: "#111229",
-                          // boxShadow: "1rem -1rem 0px 1px #301B69",
                         }}
                       >
                         <div className="card-body">
-                          {/* <div class="badge bg-warning text-dark mb-2">Warning</div> */}
                           <span
                             className="card-title mb-4 center"
                             style={{
