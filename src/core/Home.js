@@ -180,7 +180,11 @@ const Home = () => {
               >
                 {shows.map((show) => {
                   return (
-                    <div className="center ms-5" style={cardBackground}>
+                    <div
+                      key={show.id}
+                      className="center ms-5"
+                      style={cardBackground}
+                    >
                       <div
                         className="card rounded-3"
                         style={{
@@ -195,7 +199,7 @@ const Home = () => {
                           alt="..."
                         />
                         <div className="card-body">
-                          <div class="badge bg-warning text-dark mb-2">
+                          <div className="badge bg-warning text-dark mb-2">
                             {show.badge}
                           </div>
                           <h5 className="card-title mb-4">{show.name}</h5>
@@ -233,16 +237,14 @@ const Home = () => {
         </div>
         <div className="pt-6">
           <h3 className="head-font">Reviews</h3>
-          <div
-            className="row"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="row">
             <div className="col-10 col-md-12">
               <Carousel
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
                 className="carousel-review"
                 swipeable={true}
                 draggable={true}
@@ -251,7 +253,11 @@ const Home = () => {
               >
                 {reviews.map((review) => {
                   return (
-                    <div className="center ms-5" style={cardBackground2}>
+                    <div
+                      key={review.id}
+                      className="center ms-5"
+                      style={cardBackground2}
+                    >
                       <div
                         className="card border border-warning"
                         style={{
