@@ -3,22 +3,17 @@ import Background from "../images/Background.jpg";
 import MobileBackground from "../images/MobileBackground.jpg";
 import CardBackground from "../images/Border.png";
 import CardBackground2 from "../images/Border2.png";
-import Img1 from "../images/Img1.jpg";
-import Img2 from "../images/Img2.jpg";
-import Img3 from "../images/Img3.jpg";
-import Im1 from "../images/Im1.png";
-import Im2 from "../images/Im2.png";
-import Im3 from "../images/Im3.png";
-import Im4 from "../images/Im4.png";
 import Element from "../images/Element.png";
+import Element2 from "../images/Element2.png";
 import Content from "../images/Content.png";
 import Union from "../images/Union.png";
 import Subtract from "../images/Subtract.png";
 import Arrow from "../images/Arrow.png";
 import Vector from "../images/Vector.png";
-import IT from "../images/IT.png";
-import US from "../images/US.png";
+
 import Menu from "./Menu";
+
+import { shows, reviews } from "../data/Data";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -40,37 +35,6 @@ const responsive = {
     items: 1,
   },
 };
-
-const shows = [
-  { id: 1, name: "Benny Dayal", badge: "Folk", img: Im1 },
-  { id: 2, name: "Vijay Yesudas", badge: "Bollywood", img: Im2 },
-  { id: 3, name: "Andrea Jeremiah", badge: "Folk", img: Im3 },
-  { id: 4, name: "Shilpa Rao", badge: "Folk", img: Im4 },
-];
-
-const reviews = [
-  {
-    id: 1,
-    img: Img1,
-    name: "Hellen Jummy",
-    flag: US,
-    place: "PALO ALTO, CA",
-  },
-  {
-    id: 2,
-    img: Img2,
-    name: "Isaac Oluwatemilorun",
-    flag: IT,
-    place: "PALO ALTO, CA",
-  },
-  {
-    id: 3,
-    img: Img3,
-    name: "Hellen Jummy",
-    flag: US,
-    place: "PALO ALTO, CA",
-  },
-];
 
 const background = {
   // width: "auto",
@@ -106,6 +70,14 @@ const element = {
   width: "50%",
   height: "150px",
   backgroundImage: `url("${Element}")`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "100% 100%",
+  margin: "4px",
+};
+const element2 = {
+  width: "50%",
+  height: "150px",
+  backgroundImage: `url("${Element2}")`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "100% 100%",
   margin: "4px",
@@ -148,7 +120,7 @@ const Home = () => {
             removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
           >
             <div className="center">
-              <div className="element" style={element}>
+              <div className="element" style={element2}>
                 <img className="icon" src={Vector} />
                 <p>0</p>
                 <p>Label</p>
