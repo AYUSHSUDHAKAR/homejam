@@ -19,7 +19,7 @@ const currentTab = (history, path) => {
 };
 const Menu = ({ history }) => {
   return (
-    <Navbar className="container" collapseOnSelect expand="lg" bg="transparent" variant="dark">
+    <Navbar className="container fixed-top" collapseOnSelect expand="lg" bg="transparent" variant="dark">
       <Navbar.Brand href="#home"><img className="brand" src={BrandLogo}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="w-100" id="responsive-navbar-nav">

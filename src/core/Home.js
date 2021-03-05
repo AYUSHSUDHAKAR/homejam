@@ -27,9 +27,13 @@ const responsive = {
     breakpoint: { max: 3000, min: 1024 },
     items: 4,
   },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
+  bigTablet: {
+    breakpoint: { max: 1024, min: 764 },
     items: 2,
+  },
+  tablet: {
+    breakpoint: { max: 764, min: 464 },
+    items: 1,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -103,7 +107,7 @@ const Home = () => {
       <div className="top" style={imageUrl}>
         <Menu />
         <div className="container text-white">
-          <div style={{ marginBottom: "140px" }}>
+          <div style={{ paddingTop: "240px", marginBottom: "140px" }}>
             <h1 className="head-font" style={{ fontSize: "50px" }}>
               Cari Cari
             </h1>
@@ -116,7 +120,7 @@ const Home = () => {
             swipeable={true}
             draggable={true}
             responsive={responsive}
-            removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
+            // removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
           >
             <div className="center">
               <div className="element" style={element2}>
@@ -169,19 +173,20 @@ const Home = () => {
               alignItems: "center",
             }}
           >
-            <div className="col-10 col-md-12">
+            <div className="col-10 col-sm-12 col-md-12">
               <Carousel
                 className="carousel"
                 swipeable={true}
                 draggable={true}
                 responsive={responsive}
-                removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
+                // removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
+                containerClass="carousel-container"
               >
                 {shows.map((show) => {
                   return (
                     <div
                       key={show.id}
-                      className="center ms-5"
+                      className="center ms-5 col-sm-12"
                       style={cardBackground}
                     >
                       <div
@@ -236,19 +241,22 @@ const Home = () => {
         </div>
         <div className="pt-6">
           <h3 className="head-font">Reviews</h3>
-          <div className="row">
-            <div className="col-10 col-md-12">
+          <div
+            className=""
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <div className="col-10 col-sm-12  col-md-12">
               <Carousel
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                }}
                 className="carousel-review"
                 swipeable={true}
                 draggable={true}
                 responsive={responsive}
                 removeArrowOnDeviceType={["superLargeDesktop", "desktop"]}
+                containerClass="carousel-container"
               >
                 {reviews.map((review) => {
                   return (
