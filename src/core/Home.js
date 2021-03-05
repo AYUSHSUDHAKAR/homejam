@@ -165,6 +165,7 @@ const Home = () => {
             <h3 className="head-font">Upcoming Shows</h3>
             <span className="text-warning">View All</span>
           </div>
+          <div className="underline" />
           <div
             className="row"
             style={{
@@ -241,6 +242,8 @@ const Home = () => {
         </div>
         <div className="pt-6">
           <h3 className="head-font">Reviews</h3>
+          <div className="underline" />
+
           <div
             className=""
             style={{

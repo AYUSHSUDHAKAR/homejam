@@ -44,6 +44,12 @@ a {
   height: 100%;
 }
 
+.underline {
+  background-color: #0259eb;
+  height: 4px;
+  width: 50px;
+}
+
 .element {
   display: flex;
   flex-direction: column;
